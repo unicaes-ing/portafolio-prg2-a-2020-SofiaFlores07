@@ -16,7 +16,7 @@ namespace practica1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new conversiones());
+            Application.Run(new Inversiones());
         }
     }
 }

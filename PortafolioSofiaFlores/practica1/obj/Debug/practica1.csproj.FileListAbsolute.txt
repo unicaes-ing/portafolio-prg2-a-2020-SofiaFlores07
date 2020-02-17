@@ -8,3 +8,4 @@ C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaF
 C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\practica1\obj\Debug\practica1.pdb
 C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\practica1\obj\Debug\practica1.conversiones.resources
 C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\practica1\obj\Debug\practica1.promedio.resources
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\practica1\obj\Debug\practica1.Inversiones.resources

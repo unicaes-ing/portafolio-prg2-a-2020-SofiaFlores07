@@ -52,6 +52,12 @@
     <Compile Include="conversiones.Designer.cs">
       <DependentUpon>conversiones.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inversiones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inversiones.Designer.cs">
+      <DependentUpon>Inversiones.cs</DependentUpon>
+    </Compile>
     <Compile Include="promedio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="conversiones.resx">
       <DependentUpon>conversiones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inversiones.resx">
+      <DependentUpon>Inversiones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="promedio.resx">
       <DependentUpon>promedio.cs</DependentUpon>
