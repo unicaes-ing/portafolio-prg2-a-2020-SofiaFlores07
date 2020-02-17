@@ -58,6 +58,12 @@
     <Compile Include="Inversiones.Designer.cs">
       <DependentUpon>Inversiones.cs</DependentUpon>
     </Compile>
+    <Compile Include="libreria universitaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="libreria universitaria.Designer.cs">
+      <DependentUpon>libreria universitaria.cs</DependentUpon>
+    </Compile>
     <Compile Include="promedio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Inversiones.resx">
       <DependentUpon>Inversiones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="libreria universitaria.resx">
+      <DependentUpon>libreria universitaria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="promedio.resx">
       <DependentUpon>promedio.cs</DependentUpon>
