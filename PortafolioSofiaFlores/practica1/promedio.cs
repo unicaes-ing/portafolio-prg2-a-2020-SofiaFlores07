@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace practica1
 {
-    public partial class Form1 : Form
+    public partial class promedio : Form
     {
-        public Form1()
+        public promedio()
         {
             InitializeComponent();
         }

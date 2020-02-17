@@ -1,6 +1,6 @@
 ﻿namespace practica1
 {
-    partial class Form1
+    partial class promedio
     {
         /// <summary>
         /// Required designer variable.
@@ -140,7 +140,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(353, 450);
+            this.ClientSize = new System.Drawing.Size(353, 414);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnCalcular);

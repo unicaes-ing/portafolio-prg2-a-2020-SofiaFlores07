@@ -46,16 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="conversiones.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="conversiones.Designer.cs">
+      <DependentUpon>conversiones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="promedio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="promedio.Designer.cs">
+      <DependentUpon>promedio.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="conversiones.resx">
+      <DependentUpon>conversiones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="promedio.resx">
+      <DependentUpon>promedio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
