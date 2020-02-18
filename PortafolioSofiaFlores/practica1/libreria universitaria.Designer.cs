@@ -205,6 +205,7 @@
             this.Controls.Add(this.lblTitulo);
             this.Name = "libreria_universitaria";
             this.Text = "libreria_universitaria";
+            this.Load += new System.EventHandler(this.libreria_universitaria_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -45,5 +45,10 @@ namespace practica1
         {
             this.Close();
         }
+
+        private void libreria_universitaria_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
