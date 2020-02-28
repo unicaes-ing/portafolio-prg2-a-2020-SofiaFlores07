@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{326CB4C8-60B0-4C9F-AE7C-4C46B23DBDE2}</ProjectGuid>
+    <ProjectGuid>{E9B7ED07-2F4A-4A43-9BB1-E14DB8AAEA63}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Practica2</RootNamespace>
-    <AssemblyName>Practica2</AssemblyName>
+    <RootNamespace>Practica3</RootNamespace>
+    <AssemblyName>Practica3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,22 +46,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Compras.cs">
+    <Compile Include="Aleatorio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Compras.Designer.cs">
-      <DependentUpon>Compras.cs</DependentUpon>
+    <Compile Include="Aleatorio.Designer.cs">
+      <DependentUpon>Aleatorio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Conversion Romana.cs">
+    <Compile Include="Dado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Conversion Romana.Designer.cs">
-      <DependentUpon>Conversion Romana.cs</DependentUpon>
+    <Compile Include="Dado.Designer.cs">
+      <DependentUpon>Dado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Letras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Letras.Designer.cs">
+      <DependentUpon>Letras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tablas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>tablas.cs</DependentUpon>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Conversion Romana.resx">
-      <DependentUpon>Conversion Romana.cs</DependentUpon>
+    <EmbeddedResource Include="Aleatorio.resx">
+      <DependentUpon>Aleatorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dado.resx">
+      <DependentUpon>Dado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Letras.resx">
+      <DependentUpon>Letras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tablas.resx">
+      <DependentUpon>tablas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

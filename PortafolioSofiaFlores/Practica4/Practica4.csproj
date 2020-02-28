@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{326CB4C8-60B0-4C9F-AE7C-4C46B23DBDE2}</ProjectGuid>
+    <ProjectGuid>{5A409C56-A56C-484B-8A60-957752C3BD08}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Practica2</RootNamespace>
-    <AssemblyName>Practica2</AssemblyName>
+    <RootNamespace>Practica4</RootNamespace>
+    <AssemblyName>Practica4</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,22 +46,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Compras.cs">
+    <Compile Include="Fibonacci.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Compras.Designer.cs">
-      <DependentUpon>Compras.cs</DependentUpon>
+    <Compile Include="Fibonacci.Designer.cs">
+      <DependentUpon>Fibonacci.cs</DependentUpon>
     </Compile>
-    <Compile Include="Conversion Romana.cs">
+    <Compile Include="Lista.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Conversion Romana.Designer.cs">
-      <DependentUpon>Conversion Romana.cs</DependentUpon>
+    <Compile Include="Lista.Designer.cs">
+      <DependentUpon>Lista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mayor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mayor.Designer.cs">
+      <DependentUpon>Mayor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numeros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numeros.Designer.cs">
+      <DependentUpon>Numeros.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Conversion Romana.resx">
-      <DependentUpon>Conversion Romana.cs</DependentUpon>
+    <EmbeddedResource Include="Fibonacci.resx">
+      <DependentUpon>Fibonacci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lista.resx">
+      <DependentUpon>Lista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mayor.resx">
+      <DependentUpon>Mayor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numeros.resx">
+      <DependentUpon>Numeros.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

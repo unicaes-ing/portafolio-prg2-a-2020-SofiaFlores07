@@ -1,0 +1,12 @@
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica4\bin\Debug\Practica4.exe.config
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica4\bin\Debug\Practica4.exe
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica4\bin\Debug\Practica4.pdb
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica4\obj\Debug\Practica4.csprojAssemblyReference.cache
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica4\obj\Debug\Practica4.Numeros.resources
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica4\obj\Debug\Practica4.Properties.Resources.resources
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica4\obj\Debug\Practica4.csproj.GenerateResource.cache
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica4\obj\Debug\Practica4.exe
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica4\obj\Debug\Practica4.pdb
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica4\obj\Debug\Practica4.Lista.resources
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica4\obj\Debug\Practica4.Fibonacci.resources
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica4\obj\Debug\Practica4.Mayor.resources

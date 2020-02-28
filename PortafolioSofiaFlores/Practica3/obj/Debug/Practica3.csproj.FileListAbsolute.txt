@@ -1,0 +1,12 @@
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica3\bin\Debug\Practica3.exe.config
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica3\bin\Debug\Practica3.exe
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica3\bin\Debug\Practica3.pdb
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica3\obj\Debug\Practica3.csprojAssemblyReference.cache
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica3\obj\Debug\Practica3.Properties.Resources.resources
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica3\obj\Debug\Practica3.csproj.GenerateResource.cache
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica3\obj\Debug\Practica3.exe
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica3\obj\Debug\Practica3.pdb
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica3\obj\Debug\Practica3.Letras.resources
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica3\obj\Debug\Practica3.Tablas.resources
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica3\obj\Debug\Practica3.Dado.resources
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica3\obj\Debug\Practica3.Aleatorio.resources
