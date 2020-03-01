@@ -48,6 +48,7 @@ namespace practica1
             txtPorcen2.Clear();
             txtPorcen3.Clear();
             txtTotal.Clear();
+            
         }
 
         private void btnSalir_Click(object sender, EventArgs e)

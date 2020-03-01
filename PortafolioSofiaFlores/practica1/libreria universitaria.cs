@@ -39,6 +39,7 @@ namespace practica1
             txtImpuesto.Clear();
             txtSubtotal.Clear();
             txtTotal.Clear();
+            
         }
 
         private void btnSalir_Click(object sender, EventArgs e)

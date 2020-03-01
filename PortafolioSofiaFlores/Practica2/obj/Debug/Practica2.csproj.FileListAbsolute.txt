@@ -6,3 +6,7 @@ C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaF
 C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica2\obj\Debug\Practica2.csproj.GenerateResource.cache
 C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica2\obj\Debug\Practica2.exe
 C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica2\obj\Debug\Practica2.pdb
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica2\obj\Debug\Practica2.csprojAssemblyReference.cache
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica2\obj\Debug\Practica2.Compras.resources
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica2\obj\Debug\Practica2.Correo.resources
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica2\obj\Debug\Practica2.longitudes_convert.resources
