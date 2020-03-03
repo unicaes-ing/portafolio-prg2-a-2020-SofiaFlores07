@@ -40,11 +40,11 @@
             this.btnlimpiar = new System.Windows.Forms.Button();
             this.btnsalir = new System.Windows.Forms.Button();
             this.grpDescuentos = new System.Windows.Forms.GroupBox();
-            this.rdodescu1 = new System.Windows.Forms.RadioButton();
-            this.rdodescu2 = new System.Windows.Forms.RadioButton();
-            this.rdodescu3 = new System.Windows.Forms.RadioButton();
-            this.rdodescu4 = new System.Windows.Forms.RadioButton();
             this.rdodescu5 = new System.Windows.Forms.RadioButton();
+            this.rdodescu4 = new System.Windows.Forms.RadioButton();
+            this.rdodescu3 = new System.Windows.Forms.RadioButton();
+            this.rdodescu2 = new System.Windows.Forms.RadioButton();
+            this.rdodescu1 = new System.Windows.Forms.RadioButton();
             this.grpDescuentos.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -82,12 +82,13 @@
             // 
             // btncalcular
             // 
+            this.btncalcular.BackColor = System.Drawing.Color.DodgerBlue;
             this.btncalcular.Location = new System.Drawing.Point(84, 137);
             this.btncalcular.Name = "btncalcular";
             this.btncalcular.Size = new System.Drawing.Size(116, 37);
             this.btncalcular.TabIndex = 4;
             this.btncalcular.Text = "Calcular";
-            this.btncalcular.UseVisualStyleBackColor = true;
+            this.btncalcular.UseVisualStyleBackColor = false;
             this.btncalcular.Click += new System.EventHandler(this.btncalcular_Click);
             // 
             // lbldescuento
@@ -126,22 +127,24 @@
             // 
             // btnlimpiar
             // 
+            this.btnlimpiar.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnlimpiar.Location = new System.Drawing.Point(16, 355);
             this.btnlimpiar.Name = "btnlimpiar";
             this.btnlimpiar.Size = new System.Drawing.Size(100, 39);
             this.btnlimpiar.TabIndex = 9;
             this.btnlimpiar.Text = "Limpiar";
-            this.btnlimpiar.UseVisualStyleBackColor = true;
+            this.btnlimpiar.UseVisualStyleBackColor = false;
             this.btnlimpiar.Click += new System.EventHandler(this.btnlimpiar_Click);
             // 
             // btnsalir
             // 
+            this.btnsalir.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnsalir.Location = new System.Drawing.Point(146, 355);
             this.btnsalir.Name = "btnsalir";
             this.btnsalir.Size = new System.Drawing.Size(100, 39);
             this.btnsalir.TabIndex = 10;
             this.btnsalir.Text = "Salir";
-            this.btnsalir.UseVisualStyleBackColor = true;
+            this.btnsalir.UseVisualStyleBackColor = false;
             this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
             // 
             // grpDescuentos
@@ -158,38 +161,16 @@
             this.grpDescuentos.TabStop = false;
             this.grpDescuentos.Text = "Descuentos";
             // 
-            // rdodescu1
+            // rdodescu5
             // 
-            this.rdodescu1.AutoSize = true;
-            this.rdodescu1.Location = new System.Drawing.Point(19, 38);
-            this.rdodescu1.Name = "rdodescu1";
-            this.rdodescu1.Size = new System.Drawing.Size(57, 24);
-            this.rdodescu1.TabIndex = 0;
-            this.rdodescu1.TabStop = true;
-            this.rdodescu1.Text = "0%";
-            this.rdodescu1.UseVisualStyleBackColor = true;
-            // 
-            // rdodescu2
-            // 
-            this.rdodescu2.AutoSize = true;
-            this.rdodescu2.Location = new System.Drawing.Point(17, 80);
-            this.rdodescu2.Name = "rdodescu2";
-            this.rdodescu2.Size = new System.Drawing.Size(57, 24);
-            this.rdodescu2.TabIndex = 1;
-            this.rdodescu2.TabStop = true;
-            this.rdodescu2.Text = "5%";
-            this.rdodescu2.UseVisualStyleBackColor = true;
-            // 
-            // rdodescu3
-            // 
-            this.rdodescu3.AutoSize = true;
-            this.rdodescu3.Location = new System.Drawing.Point(18, 126);
-            this.rdodescu3.Name = "rdodescu3";
-            this.rdodescu3.Size = new System.Drawing.Size(66, 24);
-            this.rdodescu3.TabIndex = 2;
-            this.rdodescu3.TabStop = true;
-            this.rdodescu3.Text = "10%";
-            this.rdodescu3.UseVisualStyleBackColor = true;
+            this.rdodescu5.AutoSize = true;
+            this.rdodescu5.Location = new System.Drawing.Point(16, 210);
+            this.rdodescu5.Name = "rdodescu5";
+            this.rdodescu5.Size = new System.Drawing.Size(66, 24);
+            this.rdodescu5.TabIndex = 4;
+            this.rdodescu5.TabStop = true;
+            this.rdodescu5.Text = "20%";
+            this.rdodescu5.UseVisualStyleBackColor = true;
             // 
             // rdodescu4
             // 
@@ -202,21 +183,44 @@
             this.rdodescu4.Text = "15%";
             this.rdodescu4.UseVisualStyleBackColor = true;
             // 
-            // rdodescu5
+            // rdodescu3
             // 
-            this.rdodescu5.AutoSize = true;
-            this.rdodescu5.Location = new System.Drawing.Point(16, 210);
-            this.rdodescu5.Name = "rdodescu5";
-            this.rdodescu5.Size = new System.Drawing.Size(66, 24);
-            this.rdodescu5.TabIndex = 4;
-            this.rdodescu5.TabStop = true;
-            this.rdodescu5.Text = "20%";
-            this.rdodescu5.UseVisualStyleBackColor = true;
+            this.rdodescu3.AutoSize = true;
+            this.rdodescu3.Location = new System.Drawing.Point(18, 126);
+            this.rdodescu3.Name = "rdodescu3";
+            this.rdodescu3.Size = new System.Drawing.Size(66, 24);
+            this.rdodescu3.TabIndex = 2;
+            this.rdodescu3.TabStop = true;
+            this.rdodescu3.Text = "10%";
+            this.rdodescu3.UseVisualStyleBackColor = true;
+            // 
+            // rdodescu2
+            // 
+            this.rdodescu2.AutoSize = true;
+            this.rdodescu2.Location = new System.Drawing.Point(17, 80);
+            this.rdodescu2.Name = "rdodescu2";
+            this.rdodescu2.Size = new System.Drawing.Size(57, 24);
+            this.rdodescu2.TabIndex = 1;
+            this.rdodescu2.TabStop = true;
+            this.rdodescu2.Text = "5%";
+            this.rdodescu2.UseVisualStyleBackColor = true;
+            // 
+            // rdodescu1
+            // 
+            this.rdodescu1.AutoSize = true;
+            this.rdodescu1.Location = new System.Drawing.Point(19, 38);
+            this.rdodescu1.Name = "rdodescu1";
+            this.rdodescu1.Size = new System.Drawing.Size(57, 24);
+            this.rdodescu1.TabIndex = 0;
+            this.rdodescu1.TabStop = true;
+            this.rdodescu1.Text = "0%";
+            this.rdodescu1.UseVisualStyleBackColor = true;
             // 
             // Compras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(467, 445);
             this.Controls.Add(this.grpDescuentos);
             this.Controls.Add(this.btnsalir);

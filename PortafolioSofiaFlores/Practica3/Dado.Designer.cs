@@ -34,7 +34,7 @@
             // 
             // lstLanzamiento
             // 
-            this.lstLanzamiento.BackColor = System.Drawing.SystemColors.Menu;
+            this.lstLanzamiento.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.lstLanzamiento.FormattingEnabled = true;
             this.lstLanzamiento.ItemHeight = 20;
             this.lstLanzamiento.Location = new System.Drawing.Point(30, 12);
@@ -57,7 +57,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(240, 435);
             this.Controls.Add(this.btnLanzar);
             this.Controls.Add(this.lstLanzamiento);

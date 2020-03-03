@@ -43,32 +43,35 @@
             // 
             // btnSalir
             // 
+            this.btnSalir.BackColor = System.Drawing.Color.Plum;
             this.btnSalir.Location = new System.Drawing.Point(240, 355);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(81, 32);
             this.btnSalir.TabIndex = 21;
             this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.UseVisualStyleBackColor = false;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnLimpiar
             // 
+            this.btnLimpiar.BackColor = System.Drawing.Color.Plum;
             this.btnLimpiar.Location = new System.Drawing.Point(139, 355);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(83, 34);
             this.btnLimpiar.TabIndex = 20;
             this.btnLimpiar.Text = "Limpiar";
-            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.UseVisualStyleBackColor = false;
             this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // btnCalcular
             // 
+            this.btnCalcular.BackColor = System.Drawing.Color.Plum;
             this.btnCalcular.Location = new System.Drawing.Point(21, 355);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(96, 34);
             this.btnCalcular.TabIndex = 19;
             this.btnCalcular.Text = "Calcular";
-            this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.UseVisualStyleBackColor = false;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // txtPromedio
@@ -136,10 +139,11 @@
             this.label1.TabIndex = 11;
             this.label1.Text = "Examen1";
             // 
-            // Form1
+            // promedio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MediumAquamarine;
             this.ClientSize = new System.Drawing.Size(353, 414);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnLimpiar);
@@ -152,7 +156,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtExamen1);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "promedio";
             this.Text = "Promedio";
             this.ResumeLayout(false);
             this.PerformLayout();

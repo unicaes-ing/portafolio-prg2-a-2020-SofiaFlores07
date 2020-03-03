@@ -89,12 +89,13 @@
             // 
             // btnmayor
             // 
+            this.btnmayor.BackColor = System.Drawing.Color.Orchid;
             this.btnmayor.Location = new System.Drawing.Point(98, 199);
             this.btnmayor.Name = "btnmayor";
             this.btnmayor.Size = new System.Drawing.Size(107, 36);
             this.btnmayor.TabIndex = 6;
             this.btnmayor.Text = "Mayor";
-            this.btnmayor.UseVisualStyleBackColor = true;
+            this.btnmayor.UseVisualStyleBackColor = false;
             this.btnmayor.Click += new System.EventHandler(this.btnmayor_Click);
             // 
             // lblmayor
@@ -118,6 +119,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(297, 328);
             this.Controls.Add(this.lblrespuesta);
             this.Controls.Add(this.lblmayor);

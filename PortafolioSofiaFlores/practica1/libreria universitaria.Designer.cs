@@ -47,32 +47,35 @@
             // 
             // btnSalir
             // 
+            this.btnSalir.BackColor = System.Drawing.Color.DarkTurquoise;
             this.btnSalir.Location = new System.Drawing.Point(284, 409);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(85, 38);
             this.btnSalir.TabIndex = 29;
             this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.UseVisualStyleBackColor = false;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnNueva
             // 
+            this.btnNueva.BackColor = System.Drawing.Color.DarkTurquoise;
             this.btnNueva.Location = new System.Drawing.Point(155, 409);
             this.btnNueva.Name = "btnNueva";
             this.btnNueva.Size = new System.Drawing.Size(88, 38);
             this.btnNueva.TabIndex = 28;
             this.btnNueva.Text = "Nueva";
-            this.btnNueva.UseVisualStyleBackColor = true;
+            this.btnNueva.UseVisualStyleBackColor = false;
             this.btnNueva.Click += new System.EventHandler(this.btnNueva_Click);
             // 
             // btnCalcular
             // 
+            this.btnCalcular.BackColor = System.Drawing.Color.DarkTurquoise;
             this.btnCalcular.Location = new System.Drawing.Point(26, 409);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(92, 38);
             this.btnCalcular.TabIndex = 27;
             this.btnCalcular.Text = "Calcular";
-            this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.UseVisualStyleBackColor = false;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // txtCantidad
@@ -187,6 +190,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(592, 476);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnNueva);

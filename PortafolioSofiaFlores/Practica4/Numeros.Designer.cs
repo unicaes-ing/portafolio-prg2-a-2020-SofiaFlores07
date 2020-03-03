@@ -124,18 +124,20 @@
             // 
             // btnSumar
             // 
+            this.btnSumar.BackColor = System.Drawing.Color.Yellow;
             this.btnSumar.Location = new System.Drawing.Point(113, 306);
             this.btnSumar.Name = "btnSumar";
             this.btnSumar.Size = new System.Drawing.Size(114, 43);
             this.btnSumar.TabIndex = 10;
             this.btnSumar.Text = "Sumar";
-            this.btnSumar.UseVisualStyleBackColor = true;
+            this.btnSumar.UseVisualStyleBackColor = false;
             this.btnSumar.Click += new System.EventHandler(this.btnSumar_Click);
             // 
             // Numeros
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SpringGreen;
             this.ClientSize = new System.Drawing.Size(376, 450);
             this.Controls.Add(this.btnSumar);
             this.Controls.Add(this.txtnum1);

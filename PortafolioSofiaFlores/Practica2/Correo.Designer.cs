@@ -48,6 +48,7 @@
             // lblcorreo
             // 
             this.lblcorreo.AutoSize = true;
+            this.lblcorreo.ForeColor = System.Drawing.Color.Chartreuse;
             this.lblcorreo.Location = new System.Drawing.Point(23, 33);
             this.lblcorreo.Name = "lblcorreo";
             this.lblcorreo.Size = new System.Drawing.Size(57, 20);
@@ -57,6 +58,7 @@
             // lblcontra
             // 
             this.lblcontra.AutoSize = true;
+            this.lblcontra.ForeColor = System.Drawing.Color.Chartreuse;
             this.lblcontra.Location = new System.Drawing.Point(23, 87);
             this.lblcontra.Name = "lblcontra";
             this.lblcontra.Size = new System.Drawing.Size(92, 20);
@@ -66,6 +68,7 @@
             // lblconfir
             // 
             this.lblconfir.AutoSize = true;
+            this.lblconfir.ForeColor = System.Drawing.Color.Chartreuse;
             this.lblconfir.Location = new System.Drawing.Point(23, 147);
             this.lblconfir.Name = "lblconfir";
             this.lblconfir.Size = new System.Drawing.Size(208, 20);
@@ -113,28 +116,31 @@
             // 
             // btnAceptar
             // 
+            this.btnAceptar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnAceptar.Location = new System.Drawing.Point(134, 223);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(97, 45);
             this.btnAceptar.TabIndex = 6;
             this.btnAceptar.Text = "Aceptar";
-            this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.UseVisualStyleBackColor = false;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // btnCancelar
             // 
+            this.btnCancelar.BackColor = System.Drawing.Color.Red;
             this.btnCancelar.Location = new System.Drawing.Point(326, 223);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(93, 45);
             this.btnCancelar.TabIndex = 7;
             this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.UseVisualStyleBackColor = false;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // Correo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.ClientSize = new System.Drawing.Size(616, 316);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAceptar);

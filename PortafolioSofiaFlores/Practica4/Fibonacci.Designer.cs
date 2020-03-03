@@ -70,18 +70,20 @@
             // 
             // btnCalcular
             // 
+            this.btnCalcular.BackColor = System.Drawing.Color.GreenYellow;
             this.btnCalcular.Location = new System.Drawing.Point(129, 81);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(114, 39);
             this.btnCalcular.TabIndex = 4;
             this.btnCalcular.Text = "Calcular";
-            this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.UseVisualStyleBackColor = false;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // Fibonacci
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.NavajoWhite;
             this.ClientSize = new System.Drawing.Size(360, 237);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtFibonacci);

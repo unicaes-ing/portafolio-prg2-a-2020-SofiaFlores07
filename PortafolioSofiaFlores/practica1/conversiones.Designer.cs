@@ -34,12 +34,12 @@
             this.btnSalir = new System.Windows.Forms.Button();
             this.txtDecimal = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtBinario = new System.Windows.Forms.TextBox();
-            this.txtOctal = new System.Windows.Forms.TextBox();
-            this.txtHexadecimal = new System.Windows.Forms.TextBox();
-            this.lblBinario = new System.Windows.Forms.Label();
-            this.lblOctal = new System.Windows.Forms.Label();
             this.lblHexadecimal = new System.Windows.Forms.Label();
+            this.lblOctal = new System.Windows.Forms.Label();
+            this.lblBinario = new System.Windows.Forms.Label();
+            this.txtHexadecimal = new System.Windows.Forms.TextBox();
+            this.txtOctal = new System.Windows.Forms.TextBox();
+            this.txtBinario = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -107,38 +107,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Equivale a:";
             // 
-            // txtBinario
+            // lblHexadecimal
             // 
-            this.txtBinario.Location = new System.Drawing.Point(180, 53);
-            this.txtBinario.Name = "txtBinario";
-            this.txtBinario.ReadOnly = true;
-            this.txtBinario.Size = new System.Drawing.Size(142, 26);
-            this.txtBinario.TabIndex = 0;
-            // 
-            // txtOctal
-            // 
-            this.txtOctal.Location = new System.Drawing.Point(180, 116);
-            this.txtOctal.Name = "txtOctal";
-            this.txtOctal.ReadOnly = true;
-            this.txtOctal.Size = new System.Drawing.Size(142, 26);
-            this.txtOctal.TabIndex = 1;
-            // 
-            // txtHexadecimal
-            // 
-            this.txtHexadecimal.Location = new System.Drawing.Point(180, 183);
-            this.txtHexadecimal.Name = "txtHexadecimal";
-            this.txtHexadecimal.ReadOnly = true;
-            this.txtHexadecimal.Size = new System.Drawing.Size(142, 26);
-            this.txtHexadecimal.TabIndex = 2;
-            // 
-            // lblBinario
-            // 
-            this.lblBinario.AutoSize = true;
-            this.lblBinario.Location = new System.Drawing.Point(15, 53);
-            this.lblBinario.Name = "lblBinario";
-            this.lblBinario.Size = new System.Drawing.Size(58, 20);
-            this.lblBinario.TabIndex = 3;
-            this.lblBinario.Text = "Binario";
+            this.lblHexadecimal.AutoSize = true;
+            this.lblHexadecimal.Location = new System.Drawing.Point(6, 189);
+            this.lblHexadecimal.Name = "lblHexadecimal";
+            this.lblHexadecimal.Size = new System.Drawing.Size(100, 20);
+            this.lblHexadecimal.TabIndex = 5;
+            this.lblHexadecimal.Text = "Hexadecimal";
             // 
             // lblOctal
             // 
@@ -149,19 +125,44 @@
             this.lblOctal.TabIndex = 4;
             this.lblOctal.Text = "Octal";
             // 
-            // lblHexadecimal
+            // lblBinario
             // 
-            this.lblHexadecimal.AutoSize = true;
-            this.lblHexadecimal.Location = new System.Drawing.Point(6, 189);
-            this.lblHexadecimal.Name = "lblHexadecimal";
-            this.lblHexadecimal.Size = new System.Drawing.Size(100, 20);
-            this.lblHexadecimal.TabIndex = 5;
-            this.lblHexadecimal.Text = "Hexadecimal";
+            this.lblBinario.AutoSize = true;
+            this.lblBinario.Location = new System.Drawing.Point(15, 53);
+            this.lblBinario.Name = "lblBinario";
+            this.lblBinario.Size = new System.Drawing.Size(58, 20);
+            this.lblBinario.TabIndex = 3;
+            this.lblBinario.Text = "Binario";
+            // 
+            // txtHexadecimal
+            // 
+            this.txtHexadecimal.Location = new System.Drawing.Point(180, 183);
+            this.txtHexadecimal.Name = "txtHexadecimal";
+            this.txtHexadecimal.ReadOnly = true;
+            this.txtHexadecimal.Size = new System.Drawing.Size(142, 26);
+            this.txtHexadecimal.TabIndex = 2;
+            // 
+            // txtOctal
+            // 
+            this.txtOctal.Location = new System.Drawing.Point(180, 116);
+            this.txtOctal.Name = "txtOctal";
+            this.txtOctal.ReadOnly = true;
+            this.txtOctal.Size = new System.Drawing.Size(142, 26);
+            this.txtOctal.TabIndex = 1;
+            // 
+            // txtBinario
+            // 
+            this.txtBinario.Location = new System.Drawing.Point(180, 53);
+            this.txtBinario.Name = "txtBinario";
+            this.txtBinario.ReadOnly = true;
+            this.txtBinario.Size = new System.Drawing.Size(142, 26);
+            this.txtBinario.TabIndex = 0;
             // 
             // conversiones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Pink;
             this.ClientSize = new System.Drawing.Size(515, 536);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.txtDecimal);

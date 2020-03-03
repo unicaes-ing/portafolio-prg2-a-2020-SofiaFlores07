@@ -9,4 +9,5 @@ C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaF
 C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica3\obj\Debug\Practica3.Letras.resources
 C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica3\obj\Debug\Practica3.Tablas.resources
 C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica3\obj\Debug\Practica3.Dado.resources
+C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica3\obj\Debug\Practica3.Pago.resources
 C:\Users\home\source\repos\portafolio-prg2-a-2020-SofiaFlores07\PortafolioSofiaFlores\Practica3\obj\Debug\Practica3.Aleatorio.resources

@@ -148,24 +148,26 @@
             // 
             // btnsalir
             // 
+            this.btnsalir.BackColor = System.Drawing.Color.LightCoral;
             this.btnsalir.Location = new System.Drawing.Point(290, 436);
             this.btnsalir.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnsalir.Name = "btnsalir";
             this.btnsalir.Size = new System.Drawing.Size(112, 35);
             this.btnsalir.TabIndex = 24;
             this.btnsalir.Text = "Salir";
-            this.btnsalir.UseVisualStyleBackColor = true;
+            this.btnsalir.UseVisualStyleBackColor = false;
             this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
             // 
             // btnconvertir
             // 
+            this.btnconvertir.BackColor = System.Drawing.Color.Cyan;
             this.btnconvertir.Location = new System.Drawing.Point(120, 436);
             this.btnconvertir.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnconvertir.Name = "btnconvertir";
             this.btnconvertir.Size = new System.Drawing.Size(112, 35);
             this.btnconvertir.TabIndex = 23;
             this.btnconvertir.Text = "Convertir";
-            this.btnconvertir.UseVisualStyleBackColor = true;
+            this.btnconvertir.UseVisualStyleBackColor = false;
             this.btnconvertir.Click += new System.EventHandler(this.btnconvertir_Click);
             // 
             // txtConversion
@@ -209,6 +211,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightGreen;
             this.ClientSize = new System.Drawing.Size(554, 501);
             this.Controls.Add(this.grpA);
             this.Controls.Add(this.grpDe);
